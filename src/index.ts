@@ -28,7 +28,7 @@ import InvoiceResolver from './services/invoice/invoice.resolver';
   });
 
   const port = process.env.PORT || 4000;
-  const path = '/graphql';
+  const path = '/';
 
   apolloServer.applyMiddleware({ app, path, cors: true });
   app.listen(port, () => {
