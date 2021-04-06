@@ -1,0 +1,10 @@
+
+Run the Server:
+
+# Install the packages
+
+npm i
+
+# Run the dev Server
+
+npm run dev
