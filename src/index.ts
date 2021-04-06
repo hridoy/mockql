@@ -28,10 +28,10 @@ import InvoiceResolver from './services/invoice/invoice.resolver';
   });
 
   const port = process.env.PORT || 4000;
-  const path = '/';
+  const path = '/graphql';
 
   apolloServer.applyMiddleware({ app, path, cors: true });
   app.listen(port, () => {
-    console.log(`server started at http://localhost:${port}/`);
+    console.log(`server started at http://localhost:${port}/graphql`);
   });
 })();
